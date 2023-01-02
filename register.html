@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="loginpage.css">
+</head>
+
+<body>
+  <center>
+    <h1>Login page</h1>
+    <form action="/Register" method="post">
+      <label for="name">Name:</label>
+      <input class="input-field" type="text" id="name" name="name"><br>
+      <label for="email">Email:</label>
+      <input class="input-field" type="text" id="email" name="email"><br>
+      <label for="password">Password:</label>
+      <input class="input-field" type="password" id="password" name="password"><br>
+      <label for="tel">Phone number:</label>
+      <input class="input-field" type="tel" id="phone" name="phone"><br><br>
+      <input type="submit" value="Register">
+    </form>
+
+    <br>
+    <p>You idiot you forgot your password? <a href="/reset">Reset Password</a></p>
+  </center>
+  </form>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</body>
+
+</html>
